@@ -59,7 +59,8 @@ Con el nuevo sitio web, se busca:
 | Rol                       | Nombre(s)                                         |
 |---------------------------|---------------------------------------------------|
 | **Scrum Master**          | Moya Veronica                                     |
-| **Desarrolladores (Dev)** | Ruzzi Valeria, Corvalan Alejandro, Salvio Daniela |
+| **Desarrolladores (Dev)** | Ruzzi Valeria, Corvalan Alejandro, Salvo Daniela  |
+|                           | Velasco Gonzalo, Guillén Jonathan                 | 
 
 ---
 
