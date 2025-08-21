@@ -58,7 +58,7 @@ Con el nuevo sitio web, se busca:
 | Rol           | Nombre(s)            |
 |---------------|----------------------|
 | **Scrum Master** | Vero                 |
-| **Desarrolladores (Dev)** | Naji, Vale, Maria Florencia, Alejandro |
+| **Desarrolladores (Dev)** | Naji, Vale, Maria Florencia, Jonathan, Gonzalo |
 
 ---
 
