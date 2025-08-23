@@ -1,3 +1,4 @@
+# Dev6
 # Caso de estudio: **Inmobiliaria Saul Hnos** 🏠  
 ### Proyecto: Alquiler de propiedades
 
@@ -55,10 +56,11 @@ Con el nuevo sitio web, se busca:
 
 ## 👨‍💻 Miembros del Equipo
 
-| Rol           | Nombre(s)            |
-|---------------|----------------------|
-| **Scrum Master** | Vero                 |
-| **Desarrolladores (Dev)** | Naji, Vale, Maria Florencia, Jonathan, Gonzalo |
+| Rol                       | Nombre(s)                                         |
+|---------------------------|---------------------------------------------------|
+| **Scrum Master**          | Moya Veronica                                     |
+| **Desarrolladores (Dev)** | Ruzzi Valeria, Corvalan Alejandro, Salvo Daniela  |
+|                           | Velasco Gonzalo, Guillén Jonathan                 | 
 
 ---
 
@@ -84,4 +86,4 @@ Con el nuevo sitio web, se busca:
 ### Futuras integraciones (a considerar más adelante)
 - Sistema de calendario para agendar turnos.  
 - Integración con WhatsApp o chat.  
-- Posicionamiento **SEO básico**.  
+- Posicionamiento **SEO básico**.
