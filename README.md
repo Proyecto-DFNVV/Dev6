@@ -56,18 +56,3 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 5. **Integraciones futuras**: calendario, WhatsApp, SEO.  
 
 ---
-
-## 👨‍💻 Equipo
-| Rol             | Nombre(s) |
-|-----------------|-----------|
-| Scrum Master    | Moya Verónica |
-| Developers      | Ruzzi Valeria, Corvalán Alejandro, Salvo Daniela, Velasco Gonzalo, Guillén Jonathan |
-
----
-
-## 📂 Documentación
-- [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
-- [DER – Modelo de Datos](./docs/DER.png)  
-- [Wireframes](./docs/wireframes/)  
-- [Planificación Sprint 0](./docs/Sprint0.pdf)  
-
