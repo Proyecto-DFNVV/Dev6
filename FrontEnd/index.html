@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Saul Hnos - Inicio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-slate-700 to-slate-600 text-white shadow-lg fixed w-full top-0 z-50">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-gray-100">
+                    Saul Hnos
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="hidden md:flex space-x-8">
+                    <li><a href="index.html" class="hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300 bg-white bg-opacity-10">Inicio</a></li>
+                    <li><a href="propiedades.html" class="hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">Propiedades</a></li>
+                    <li><a href="contacto.html" class="hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">Contacto</a></li>
+                    <li><a href="#faq" class="hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">FAQ</a></li>
+                </ul>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div class="md:hidden hidden pb-4">
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="block hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300 bg-white bg-opacity-10">Inicio</a></li>
+                    <li><a href="propiedades.html" class="block hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">Propiedades</a></li>
+                    <li><a href="contacto.html" class="block hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">Contacto</a></li>
+                    <li><a href="#faq" class="block hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center text-center text-white">
+        <div class="absolute inset-0 bg-black bg-opacity-40 bg-index"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 ">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
+                Tu Nuevo Hogar Te Está Esperando
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 drop-shadow-md">
+                Encontramos la propiedad perfecta para ti. Casas, departamentos y locales en alquiler.
+            </p>
+            <a href="propiedades.html" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:-translate-y-1 shadow-lg">
+                Ver Propiedades
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-slate-700 mb-12">
+                Nuestros Servicios
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-gray-50 rounded-xl hover:shadow-lg transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-6xl mb-6">🏠</div>
+                    <h3 class="text-2xl font-bold mb-4 text-slate-700">Alquiler de Casas</h3>
+                    <p class="text-gray-600 leading-relaxed">Amplia variedad de casas en diferentes barrios y con todas las comodidades que necesitas.</p>
+                </div>
+                <div class="text-center p-8 bg-gray-50 rounded-xl hover:shadow-lg transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-6xl mb-6">🏢</div>
+                    <h3 class="text-2xl font-bold mb-4 text-slate-700">Departamentos</h3>
+                    <p class="text-gray-600 leading-relaxed">Departamentos modernos y funcionales en las mejores ubicaciones de la ciudad.</p>
+                </div>
+                <div class="text-center p-8 bg-gray-50 rounded-xl hover:shadow-lg transition duration-300 transform hover:-translate-y-2">
+                    <div class="text-6xl mb-6">🏪</div>
+                    <h3 class="text-2xl font-bold mb-4 text-slate-700">Locales Comerciales</h3>
+                    <p class="text-gray-600 leading-relaxed">Espacios comerciales estratégicamente ubicados para hacer crecer tu negocio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-slate-700 mb-12">
+                Propiedades Destacadas
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Property Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                        📷 Imagen de la propiedad
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Casa en Barrio Norte</h3>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$45.000/mes</div>
+                        <p class="text-gray-600 mb-4">3 dormitorios, 2 baños, jardín. Ideal para familias.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Casa%20en%20Barrio%20Norte&precio=45000&descripcion=3%20dormitorios,%202%20baños,%20jardín.%20Ideal%20para%20familias." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                        📷 Imagen de la propiedad
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Departamento Centro</h3>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$35.000/mes</div>
+                        <p class="text-gray-600 mb-4">2 dormitorios, 1 baño, balcón. Excelente ubicación.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Departamento%20Centro&precio=35000&descripcion=2%20dormitorios,%201%20baño,%20balcón.%20Excelente%20ubicación." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                        📷 Imagen de la propiedad
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Local Comercial</h3>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$25.000/mes</div>
+                        <p class="text-gray-600 mb-4">80m², vidriera amplia, zona comercial.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Local%20Comercial&precio=25000&descripcion=80m²,%20vidriera%20amplia,%20zona%20comercial." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="faq" class="bg-slate-700 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-100">Contacto</h3>
+                    <p class="text-gray-300 mb-2">Email: contactos@saulhermanos.com</p>
+                    <p class="text-gray-300 mb-2">Teléfono: +54 351 123-4567</p>
+                    <p class="text-gray-300">Dirección: Córdoba, Argentina</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-100">FAQ</h3>
+                    <div class="text-gray-300 space-y-3">
+                        <div>
+                            <p class="font-semibold">¿Cómo puedo agendar una visita?</p>
+                            <p class="text-sm">Puedes contactarnos a través del formulario o por teléfono.</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">¿Qué documentos necesito?</p>
+                            <p class="text-sm">DNI, recibo de sueldo y garantía propietaria.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-gray-100">Horarios</h3>
+                    <p class="text-gray-300 mb-2">Lunes a Viernes: 9:00 - 18:00</p>
+                    <p class="text-gray-300 mb-2">Sábados: 9:00 - 13:00</p>
+                    <p class="text-gray-300">Domingos: Cerrado</p>
+                </div>
+            </div>
+            <div class="text-center pt-8 border-t border-slate-600">
+                <p class="text-gray-300">&copy; 2025 Inmobiliaria Saul Hnos. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
