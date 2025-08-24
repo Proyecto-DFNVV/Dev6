@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades - Inmobiliaria Saul Hnos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-slate-700 to-slate-600 text-white shadow-lg">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-gray-100">
+                    Saul Hnos
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="hidden md:flex space-x-8">
+                    <li><a href="index.html" class="hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">Inicio</a></li>
+                    <li><a href="propiedades.html" class="hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300 bg-white bg-opacity-10">Propiedades</a></li>
+                    <li><a href="contacto.html" class="hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">Contacto</a></li>
+                    <li><a href="index.html#faq" class="hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">FAQ</a></li>
+                </ul>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div class="md:hidden hidden pb-4">
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="block hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">Inicio</a></li>
+                    <li><a href="propiedades.html" class="block hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300 bg-white bg-opacity-10">Propiedades</a></li>
+                    <li><a href="contacto.html" class="block hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">Contacto</a></li>
+                    <li><a href="index.html#faq" class="block hover:bg-white hover:bg-opacity-10 px-4 py-2 rounded-lg transition duration-300">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-12 min-h-screen">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Page Header -->
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold text-slate-700 mb-4">
+                    Nuestras Propiedades
+                </h1>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Encuentra la propiedad perfecta para ti. Utiliza los filtros para refinar tu búsqueda.
+                </p>
+            </div>
+
+            <!-- Filters -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h3 class="text-xl font-bold text-slate-700 mb-6 flex items-center">
+                    <span class="mr-2">🔍</span>
+                    Filtros de Búsqueda
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 items-end">
+                    <div>
+                        <label for="tipoPropiedad" class="block text-sm font-bold text-slate-700 mb-2">
+                            Tipo de Propiedad
+                        </label>
+                        <select id="tipoPropiedad" class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition duration-300">
+                            <option value="">Todos</option>
+                            <option value="casa">Casa</option>
+                            <option value="departamento">Departamento</option>
+                            <option value="local">Local Comercial</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="zona" class="block text-sm font-bold text-slate-700 mb-2">
+                            Zona
+                        </label>
+                        <select id="zona" class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition duration-300">
+                            <option value="">Todas las zonas</option>
+                            <option value="centro">Centro</option>
+                            <option value="norte">Barrio Norte</option>
+                            <option value="sur">Zona Sur</option>
+                            <option value="oeste">Zona Oeste</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="precioMin" class="block text-sm font-bold text-slate-700 mb-2">
+                            Precio Mínimo
+                        </label>
+                        <input type="number" id="precioMin" placeholder="$ Mínimo" 
+                               class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition duration-300">
+                    </div>
+
+                    <div>
+                        <label for="precioMax" class="block text-sm font-bold text-slate-700 mb-2">
+                            Precio Máximo
+                        </label>
+                        <input type="number" id="precioMax" placeholder="$ Máximo" 
+                               class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition duration-300">
+                    </div>
+
+                    <div>
+                        <label for="dormitorios" class="block text-sm font-bold text-slate-700 mb-2">
+                            Dormitorios
+                        </label>
+                        <select id="dormitorios" class="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none transition duration-300">
+                            <option value="">Cualquier cantidad</option>
+                            <option value="1">1 dormitorio</option>
+                            <option value="2">2 dormitorios</option>
+                            <option value="3">3 dormitorios</option>
+                            <option value="4+">4+ dormitorios</option>
+                        </select>
+                    </div>
+
+                    <div class="flex space-x-2">
+                        <button class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg transition duration-300">
+                            Buscar
+                        </button>
+                        <button class="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-3 px-4 rounded-lg transition duration-300">
+                            Limpiar
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Header -->
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8 space-y-4 md:space-y-0">
+                <div class="text-gray-600">
+                    Mostrando 12 propiedades
+                </div>
+                <div class="flex items-center space-x-2">
+                    <label for="sortBy" class="text-sm font-medium text-slate-700">Ordenar por:</label>
+                    <select id="sortBy" class="px-3 py-2 border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none bg-white">
+                        <option value="recent">Más recientes</option>
+                        <option value="price-low">Precio: menor a mayor</option>
+                        <option value="price-high">Precio: mayor a menor</option>
+                        <option value="size">Tamaño</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Properties Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Property Card 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="relative">
+                        <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                            📷 Imagen de la propiedad
+                        </div>
+                        <div class="absolute top-3 right-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                            Destacada
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Casa Familiar en Barrio Norte</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <span class="mr-1">📍</span>
+                            <span>Barrio Norte</span>
+                        </div>
+                        <div class="flex items-center text-gray-600 mb-4 space-x-4">
+                            <span class="flex items-center">
+                                <span class="mr-1">🛏️</span>
+                                <span>3 dorm.</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">🚿</span>
+                                <span>2 baños</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">📐</span>
+                                <span>120m²</span>
+                            </span>
+                        </div>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$45.000/mes</div>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Hermosa casa de 3 dormitorios con jardín amplio, ideal para familias. Cuenta con living, cocina integrada y 2 baños completos.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Casa%20Familiar%20en%20Barrio%20Norte&precio=45000&descripcion=Hermosa%20casa%20de%203%20dormitorios%20con%20jardín%20amplio,%20ideal%20para%20familias." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 2 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                        📷 Imagen de la propiedad
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Departamento Moderno Centro</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <span class="mr-1">📍</span>
+                            <span>Centro</span>
+                        </div>
+                        <div class="flex items-center text-gray-600 mb-4 space-x-4">
+                            <span class="flex items-center">
+                                <span class="mr-1">🛏️</span>
+                                <span>2 dorm.</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">🚿</span>
+                                <span>1 baño</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">📐</span>
+                                <span>70m²</span>
+                            </span>
+                        </div>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$35.000/mes</div>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Departamento de 2 ambientes en pleno centro, con balcón y excelente iluminación natural. Edificio con amenities.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Departamento%20Moderno%20Centro&precio=35000&descripcion=Departamento%20de%202%20ambientes%20en%20pleno%20centro,%20con%20balcón%20y%20excelente%20iluminación%20natural." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 3 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                        📷 Imagen de la propiedad
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Local Comercial Zona Comercial</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <span class="mr-1">📍</span>
+                            <span>Zona Comercial</span>
+                        </div>
+                        <div class="flex items-center text-gray-600 mb-4 space-x-4">
+                            <span class="flex items-center">
+                                <span class="mr-1">🚿</span>
+                                <span>1 baño</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">📐</span>
+                                <span>80m²</span>
+                            </span>
+                        </div>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$25.000/mes</div>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Local comercial con amplia vidriera, ideal para cualquier tipo de negocio. Excelente ubicación y tránsito peatonal.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Local%20Comercial%20Zona%20Comercial&precio=25000&descripcion=Local%20comercial%20con%20amplia%20vidriera,%20ideal%20para%20cualquier%20tipo%20de%20negocio." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 4 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="relative">
+                        <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                            📷 Imagen de la propiedad
+                        </div>
+                        <div class="absolute top-3 right-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                            Destacada
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Casa con Piscina Zona Sur</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <span class="mr-1">📍</span>
+                            <span>Zona Sur</span>
+                        </div>
+                        <div class="flex items-center text-gray-600 mb-4 space-x-4">
+                            <span class="flex items-center">
+                                <span class="mr-1">🛏️</span>
+                                <span>4 dorm.</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">🚿</span>
+                                <span>3 baños</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">📐</span>
+                                <span>180m²</span>
+                            </span>
+                        </div>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$52.000/mes</div>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Amplia casa de 4 dormitorios con piscina y quincho. Perfecta para entretenimiento y vida familiar.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Casa%20con%20Piscina%20Zona%20Sur&precio=52000&descripcion=Amplia%20casa%20de%204%20dormitorios%20con%20piscina%20y%20quincho.%20Perfecta%20para%20entretenimiento." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 5 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                        📷 Imagen de la propiedad
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Departamento Económico</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <span class="mr-1">📍</span>
+                            <span>Zona Oeste</span>
+                        </div>
+                        <div class="flex items-center text-gray-600 mb-4 space-x-4">
+                            <span class="flex items-center">
+                                <span class="mr-1">🛏️</span>
+                                <span>1 dorm.</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">🚿</span>
+                                <span>1 baño</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">📐</span>
+                                <span>45m²</span>
+                            </span>
+                        </div>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$28.000/mes</div>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Departamento de 1 dormitorio, ideal para estudiantes o profesionales jóvenes. Muy bien ubicado.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Departamento%20Económico&precio=28000&descripcion=Departamento%20de%201%20dormitorio,%20ideal%20para%20estudiantes%20o%20profesionales%20jóvenes." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property Card 6 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
+                    <div class="relative">
+                        <div class="h-48 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-blue-400 text-lg font-medium">
+                            📷 Imagen de la propiedad
+                        </div>
+                        <div class="absolute top-3 right-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                            Destacada
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-slate-700">Casa de Lujo Centro</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <span class="mr-1">📍</span>
+                            <span>Centro Premium</span>
+                        </div>
+                        <div class="flex items-center text-gray-600 mb-4 space-x-4">
+                            <span class="flex items-center">
+                                <span class="mr-1">🛏️</span>
+                                <span>5 dorm.</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">🚿</span>
+                                <span>4 baños</span>
+                            </span>
+                            <span class="flex items-center">
+                                <span class="mr-1">📐</span>
+                                <span>250m²</span>
+                            </span>
+                        </div>
+                        <div class="text-2xl font-bold text-red-600 mb-4">$75.000/mes</div>
+                        <p class="text-gray-600 mb-6 leading-relaxed">Casa de lujo con 5 dormitorios, jardín privado y garage para 2 autos. Acabados de primera calidad.</p>
+                        <div class="flex space-x-2">
+                            <a href="contacto.html?propiedad=Casa%20de%20Lujo%20Centro&precio=75000&descripcion=Casa%20de%20lujo%20con%205%20dormitorios,%20jardín%20privado%20y%20garage%20para%202%20autos." class="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Consultar
+                            </a>
+                            <a href="#" class="flex-1 bg-gray-500 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg transition duration-300">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="flex justify-center mt-12">
+                <nav class="flex space-x-2">
+                    <button class="px-4 py-2 border-2 border-gray-300 bg-white rounded-lg hover:bg-blue-600 hover:text-white hover:border-blue-600 transition duration-300">
+                        1
+                    </button>
+                    <button class="px-4 py-2 border-2 border-gray-300 bg-white rounded-lg hover:bg-blue-600 hover:text-white hover:border-blue-600 transition duration-300 bg-blue-600 text-white border-blue-600">
+                        2
+                    </button>
+                    <button class="px-4 py-2 border-2 border-gray-300 bg-white rounded-lg hover:bg-blue-600 hover:text-white hover:border-blue-600 transition duration-300">
+                        3
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-700 text-white py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-300">&copy; 2025 Inmobiliaria Saul Hnos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
