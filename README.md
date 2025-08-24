@@ -67,6 +67,6 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 
 ## 📂 Documentación
 - [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
-- [DER – Modelo de Datos](./docs/DER.png)  
+- [DER – Modelo de Datos](./docs/DER.pdf)  
 - [Wireframes](./docs/wireframes/)  
 - [Planificación Sprint 0](./docs/Sprint0.pdf)  
