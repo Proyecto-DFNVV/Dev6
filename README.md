@@ -64,9 +64,15 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 | Developers      | Ruzzi Valeria, Corvalán Alejandro, Salvo Daniela, Velasco Gonzalo, Guillén Jonathan |
 
 ---
+## 🧱 Tecnologías y fundamentación
+- Gestión: **GitHub** (Issues, PRs, Wiki, Projects).
+- Base de datos: **MySQL 8 (InnoDB, utf8mb4)**.
+- Front: **HTML/CSS** (responsive, sin framework en S0).
+- Back: **Python** simple (endpoints mínimos para guardar contactos).
+
+---
 
 ## 📂 Documentación
 - [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
 - [DER – Modelo de Datos](./docs/DER.pdf)  
-- [Wireframes](./docs/wireframes/)  
-- [Planificación Sprint 0](./docs/Sprint0.pdf)  
+
