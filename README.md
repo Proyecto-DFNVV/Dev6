@@ -30,7 +30,7 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 - Listado de propiedades con filtros.
 - Detalle de propiedad con fotos y descripción.
 - Formulario de contacto.
-- Agenda de visitas.
+- Solicitud/agenda de visita vía formulario.
 - Menú de navegación a secciones.
 - Diseño responsive.
 
@@ -74,5 +74,5 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 
 ## 📂 Documentación
 - [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
-- [DER – Diagrama de Clases](./docs/DER.pdf)  
+- [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER.pdf)  
 
