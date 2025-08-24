@@ -49,11 +49,11 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 ---
 
 ## 📋 Product Backlog inicial
-1. **Diseño y estructura**: wireframes, secciones Home/Propiedades/Contacto/FAQ, estilo visual.  
-2. **Desarrollo**: maquetado front en HTML/CSS, backend en Node/PostgreSQL.  
-3. **Optimización UX**: responsive, ≤4s de carga, diseño minimalista, pruebas multi-dispositivo.  
-4. **Gestión de datos**: CRUD propiedades, clientes, contratos, pagos.  
-5. **Integraciones futuras**: calendario, WhatsApp, SEO.  
+- **Diseño y estructura:** wireframes, secciones Home/Propiedades/Contacto/FAQ, estilo visual.
+- **Desarrollo:** maquetado front en HTML/CSS; backend en **Python** (endpoints mínimos) con **MySQL**.
+- **Optimización UX:** responsive, diseño simple, pruebas multi-dispositivo.
+- **Gestión de datos:** CRUD de propiedades, clientes, contratos y pagos (siguientes sprints).
+- **Integraciones futuras:** calendario, WhatsApp, SEO.
 
 ---
 
@@ -74,5 +74,5 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 
 ## 📂 Documentación
 - [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
-- [DER – Modelo de Datos](./docs/DER.pdf)  
+- [DER – Diagrama de Clases](./docs/DER.pdf)  
 
