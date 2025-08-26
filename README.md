@@ -61,13 +61,13 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 | Rol             | Nombre(s) |
 |-----------------|-----------|
 | Scrum Master    | Moya Verónica |
-| Developers      | Ruzzi Valeria, Corvalán Alejandro, Salvo Daniela, Velasco Gonzalo, Guillén Jonathan |
+| Developers      | Ruzzi Valeria |
+| Developers      | Corvalán Alejandro |
+| Developers      | Salvo Daniela |
+| Developers      | Velasco Gonzalo |
+| Developers      | Guillén Jonathan |
 
-<<<<<<< HEAD
-| Rol           | Nombre(s)            |
-|---------------|----------------------|
-| **Scrum Master** | Verónica             |
-| **Desarrolladores (Dev)** | Valeria, Daniela, Alejandro |
+
 =======
 ---
 ## 🧱 Tecnologías y fundamentación
