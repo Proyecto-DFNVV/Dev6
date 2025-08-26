@@ -58,10 +58,56 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 ---
 
 ## 👨‍💻 Equipo
-| Rol             | Nombre(s) |
-|-----------------|-----------|
-| Scrum Master    | Moya Verónica |
-| Developers      | Ruzzi Valeria, Corvalán Alejandro, Salvo Daniela, Velasco Gonzalo, Guillén Jonathan |
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Email</th>
+      <th>Rol</th>
+      <th>GitHub</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Corvalán Alejandro</td>
+      <td>alejandromcorva@gmail.com</td>
+      <td><img src="https://img.shields.io/badge/Product%20Owner-4B0082?style=for-the-badge" alt="Product Owner" /></td>
+      <td><a href="https://github.com/Corval-LC">Corval-LC</a></td>
+    </tr>
+    <tr>
+      <td>Guillén Jonathan</td>
+      <td>jonathan.guillen@mi.unc.edu.ar</td>
+      <td><img src="https://img.shields.io/badge/QA-DC143C?style=for-the-badge" alt="QA" /></td>
+      <td><a href="https://github.com/JG-UNC">JG-UNC</a></td>
+    </tr>
+    <tr>
+      <td>Moya Verónica</td>
+      <td>vero.moya@gmail.com</td>
+      <td><img src="https://img.shields.io/badge/Scrum%20master-2E8B57?style=for-the-badge" alt="Scrum master" /></td>
+      <td><a href="https://github.com/Veromoya95">Veromoya95</a></td>
+    </tr>
+    <tr>
+      <td>Ruzzi Valeria</td>
+      <td>valeriaruzzi@gmail.com</td>
+      <td><img src="https://img.shields.io/badge/Dev-DAA520?style=for-the-badge" alt="Dev" /></td>
+      <td><a href="https://github.com/valer05">valer05</a></td>
+    </tr>
+    <tr>
+      <td>Salvo Daniela</td>
+      <td>daniela7salvo@gmail.com</td>
+      <td><img src="https://img.shields.io/badge/Dev-DAA520?style=for-the-badge" alt="Dev" /></td>
+      <td><a href="https://github.com/DanipSal">DanipSal</a></td>
+    </tr>
+    <tr>
+      <td>Velasco Gonzalo</td>
+      <td>gonzalo.velasco@mi.unc.edu.ar</td>
+      <td><img src="https://img.shields.io/badge/Tester-4682B4?style=for-the-badge" alt="Tester" /></td>
+      <td><a href="https://github.com/g0niii">g0niii</a></td>
+    </tr>
+  </tbody>
+</table>
+
 
 ---
 ## 🧱 Tecnologías y fundamentación
