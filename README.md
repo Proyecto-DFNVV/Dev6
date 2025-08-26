@@ -57,7 +57,7 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 
 ---
 
-👨‍💻 ## Integrantes Dev6
+## 👨‍💻 Equipo
 
 <table>
   <thead>
@@ -108,14 +108,6 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
   </tbody>
 </table>
 
-
-
-
-## 👨‍💻 Equipo
-| Rol             | Nombre(s) |
-|-----------------|-----------|
-| Scrum Master    | Moya Verónica |
-| Developers      | Ruzzi Valeria, Corvalán Alejandro, Salvo Daniela, Velasco Gonzalo, Guillén Jonathan |
 
 ---
 ## 🧱 Tecnologías y fundamentación
