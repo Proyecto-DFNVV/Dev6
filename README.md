@@ -121,4 +121,4 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 ## 📂 Documentación
 - [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
 - [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER.pdf)  
-
+- [Schema SQL](docs/schema.sql)
