@@ -123,4 +123,4 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 - [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER.pdf)  
 - [Schema SQL](docs/schema.sql)
 - [Diagrama Modelo Relacional](/docs/Diagrama Modelo Relacional.png)
-- [Historias de usuario] (/docs/Historias%20Usuario%20dev6.xlsx) 
+- [Historias de usuario](https://github.com/Proyecto-DFNVV/Dev6/blob/Develop/docs/Historias%20Usuario%20dev6.xlsx)) 
