@@ -4,8 +4,8 @@
   }
   
   .navbar-brand img {
-    height: 50px; /* ajustÃ¡ a tu gusto */
-    width: auto;  /* mantiene proporciÃ³n */
+    height: 50px; /* ajusta a tu gusto */
+    width: auto;  /* mantiene proporción */
   }
 
   .navbar-brand {
@@ -19,7 +19,7 @@
   .carousel-item img {
     width: 100%;
     height: 600px;      /* o el alto que quieras */
-    object-fit: cover;  /* recorta manteniendo proporciÃ³n */
+    object-fit: cover;  /* recorta manteniendo proporción */
   }
 
 .card {
