@@ -51,6 +51,38 @@ La propuesta es desarrollar una **aplicación web responsive**, que funcione com
 ---
 
 ## 👨‍💻 Equipo
+
+| Nombre                       | Rol / Email / GitHub |
+|-------------------------------|--------------------|
+| Moya Verónica                 | Scrum Master – vero.moya@gmail.com – [GitHub](https://github.com/Veromoya95) |
+| Corvalán Alejandro            | Product Owner – alejandromcorva@gmail.com – [GitHub](https://github.com/Corval-LC) |
+| Guillén Jonathan              | QA – jonathan.guillen@mi.unc.edu.ar – [GitHub](https://github.com/JG-UNC) |
+| Ruzzi Valeria                 | Dev – valeriaruzzi@gmail.com – [GitHub](https://github.com/valer05) |
+| Salvo Daniela                 | Dev – daniela7salvo@gmail.com – [GitHub](https://github.com/DanipSal) |
+| Velasco Gonzalo               | Tester – gonzalo.velasco@mi.unc.edu.ar – [GitHub](https://github.com/g0niii) |
+
+---
+
+## 📋 Product Backlog inicial
+- Diseño y estructura: wireframes, secciones Home/Propiedades/Contacto/FAQ, estilo visual.  
+- Desarrollo: maquetado front en HTML/CSS; backend en Python simple con endpoints mínimos y MySQL.  
+- Optimización UX: responsive, pruebas multi-dispositivo, optimización de imágenes y videos.  
+- Gestión de datos: CRUD de propiedades, clientes, contratos y pagos.  
+- Integraciones futuras: calendario, WhatsApp, SEO.
+
+---
+
+## 🧱 Tecnologías
+- GitHub, HTML/CSS, Python, MySQL 8.  
+- Diseño responsive y compatibilidad multi-navegador.
+
+---
+
+## 🎲 Modelado de datos / Contratos
+- Contratos de alquiler: fecha_fin = fecha planificada de finalización.  
+- finalizado = contrato llega a fecha_fin.  
+- rescindido = contrato termina antes de fecha_fin; se registrará fecha_rescision (Sprint 2).
+
 ---
 
 ## 📂 Documentación
@@ -58,4 +90,4 @@ La propuesta es desarrollar una **aplicación web responsive**, que funcione com
 - [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER%20y%20Diagrama%20de%20clase.pdf)  
 - [Schema SQL](docs/schema.sql)
 - [Diagrama Modelo Relacional](https://github.com/Proyecto-DFNVV/Dev6/blob/main/docs/Diagrama%20Modelo%20Relacional.png)
-- [Historias de usuario](https://github.com/Proyecto-DFNVV/Dev6/blob/Develop/docs/Historias%20Usuario%20dev6.xlsx)
+- [Historias de usuario](https://github.com/Proyecto-DFNVV/Dev6/blob/Develop/docs/Historias%20Usuario%20dev6.xlsx) 
