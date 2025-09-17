@@ -62,7 +62,7 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 |-----------------|-----------|
 | Scrum Master    | Moya Verónica |
 | Developers      | Ruzzi Valeria, Corvalán Alejandro, Salvo Daniela, Velasco Gonzalo, Guillén Jonathan |
-
+ 
 ---
 
 ## 📂 Documentación
