@@ -117,10 +117,12 @@ El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
 - Back: **Python** simple (endpoints mínimos para guardar contactos).
 
 ---
-## 🧱 Modelado de datos / Contratos
-En Contratos de alquiler, fecha_fin es la fecha planificada de finalización.
+## 🎲​ Modelado de datos / Contratos
+
+- En Contratos de alquiler, fecha_fin es la fecha planificada de finalización.
 finalizado = el contrato llega a fecha_fin.
 rescindido = el contrato termina antes de fecha_fin; se registrará una fecha_rescision (campo a incorporar en Sprint 2).
+
 ---
 
 ## 📂 Documentación
