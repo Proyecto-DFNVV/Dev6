@@ -1,134 +1,93 @@
-# Dev6 – Inmobiliaria Saul Hnos 🏠
+# Dev6 – Inmobiliaria Saul Hnos 🏠  
 Proyecto Integrador I – Gestión de alquileres
 
 ---
 
-## 📌 Descripción
-Saul Hnos es una inmobiliaria de Córdoba que actualmente difunde sus propiedades en Instagram.  
-Con el crecimiento de consultas surge la necesidad de un **sistema web propio** para centralizar la información, organizar visitas y gestionar clientes y contratos.
+## 📌 Descripción del Proyecto
+Saul Hnos es una inmobiliaria de Córdoba, ubicada en el barrio General Paz, que actualmente difunde sus propiedades en Instagram.  
+Con el crecimiento de consultas surge la necesidad de un **sitio/sistema web propio** para centralizar la información, organizar visitas y gestionar clientes y contratos.
 
 ---
 
-## 🎯 Objetivo
-Construir una **aplicación web responsive** con dos áreas principales:
-- **Portal público**: catálogo de propiedades con filtros, fotos y descripciones, agenda de visitas y formulario de contacto.
+## 🎯 Objetivo / Visión
+La propuesta es desarrollar una **aplicación web responsive**, que funcione como el primer paso en la presencia online de Saul Hnos y permita:  
+- Centralizar la información de las propiedades disponibles.  
+- Facilitar la reserva de turnos/visitas de manera sencilla.  
+- Gestionar clientes, contratos y pagos.  
+- Potenciar la imagen profesional de la inmobiliaria.  
+
+### Áreas principales
+- **Portal público**: catálogo de propiedades con filtros, fotos, descripciones, agenda de visitas y formulario de contacto.  
 - **Área de clientes registrados**: acceso a datos personales, estado de operaciones y módulo básico de pagos.
-
-El sistema será escalable para futuras integraciones (WhatsApp, SEO, reportes).
-
----
-
-## 👥 Usuarios
-- **Administrador**: gestiona propiedades, clientes, contratos y pagos.  
-- **Cliente registrado**: consulta contratos y pagos.  
-- **Visitante**: explora el catálogo, agenda visitas y completa formularios de contacto.  
 
 ---
 
 ## ⚙️ Funcionalidades
+
 ### MVP (Sprints 0–1)
-- Listado de propiedades con filtros.
-- Detalle de propiedad con fotos y descripción.
-- Formulario de contacto.
-- Solicitud/agenda de visita vía formulario.
-- Menú de navegación a secciones.
-- Diseño responsive.
+- Listado de propiedades con filtros y fotos.  
+- Detalle de propiedad con descripción.  
+- Formulario de contacto y solicitud de visita.  
+- Menú de navegación y diseño responsive.
 
 ### Evolución (Sprints 2+)
-- Gestión de clientes y contratos de alquiler.
-- Registro de pagos y vencimientos.
-- Panel administrativo con CRUD.
+- Gestión de clientes y contratos de alquiler.  
+- Registro de pagos y vencimientos.  
+- Panel administrativo con CRUD.  
 - Optimización de recursos (imágenes WEBP, tiempos de carga).
-- Compatibilidad multi-navegador (Chrome, Firefox, Safari).
 
 ### Futuro (Sprints 3+)
-- Integración con WhatsApp o chat en línea.
-- Sistema de calendario avanzado.
+- Integración con WhatsApp o chat en línea.  
+- Sistema de calendario avanzado.  
 - Posicionamiento SEO básico.
 
 ---
 
-## 📋 Product Backlog inicial
-- **Diseño y estructura:** wireframes, secciones Home/Propiedades/Contacto/FAQ, estilo visual.
-- **Desarrollo:** maquetado front en HTML/CSS; backend en **Python** (endpoints mínimos) con **MySQL**.
-- **Optimización UX:** responsive, diseño simple, pruebas multi-dispositivo.
-- **Gestión de datos:** CRUD de propiedades, clientes, contratos y pagos (siguientes sprints).
-- **Integraciones futuras:** calendario, WhatsApp, SEO.
+## 👥 Usuarios Potenciales
+- **Administrador**: gestiona propiedades, clientes, contratos y pagos.  
+- **Cliente registrado**: consulta contratos y pagos.  
+- **Visitante**: explora el catálogo, agenda visitas y completa formularios de contacto.
 
 ---
 
 ## 👨‍💻 Equipo
 
-<table>
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th>Email</th>
-      <th>Rol</th>
-      <th>GitHub</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Corvalán Alejandro</td>
-      <td>alejandromcorva@gmail.com</td>
-      <td><img src="https://img.shields.io/badge/Product%20Owner-4B0082?style=for-the-badge" alt="Product Owner" /></td>
-      <td><a href="https://github.com/Corval-LC">Corval-LC</a></td>
-    </tr>
-    <tr>
-      <td>Guillén Jonathan</td>
-      <td>jonathan.guillen@mi.unc.edu.ar</td>
-      <td><img src="https://img.shields.io/badge/QA-DC143C?style=for-the-badge" alt="QA" /></td>
-      <td><a href="https://github.com/JG-UNC">JG-UNC</a></td>
-    </tr>
-    <tr>
-      <td>Moya Verónica</td>
-      <td>vero.moya@gmail.com</td>
-      <td><img src="https://img.shields.io/badge/Scrum%20master-2E8B57?style=for-the-badge" alt="Scrum master" /></td>
-      <td><a href="https://github.com/Veromoya95">Veromoya95</a></td>
-    </tr>
-    <tr>
-      <td>Ruzzi Valeria</td>
-      <td>valeriaruzzi@gmail.com</td>
-      <td><img src="https://img.shields.io/badge/Dev-DAA520?style=for-the-badge" alt="Dev" /></td>
-      <td><a href="https://github.com/valer05">valer05</a></td>
-    </tr>
-    <tr>
-      <td>Salvo Daniela</td>
-      <td>daniela7salvo@gmail.com</td>
-      <td><img src="https://img.shields.io/badge/Dev-DAA520?style=for-the-badge" alt="Dev" /></td>
-      <td><a href="https://github.com/DanipSal">DanipSal</a></td>
-    </tr>
-    <tr>
-      <td>Velasco Gonzalo</td>
-      <td>gonzalo.velasco@mi.unc.edu.ar</td>
-      <td><img src="https://img.shields.io/badge/Tester-4682B4?style=for-the-badge" alt="Tester" /></td>
-      <td><a href="https://github.com/g0niii">g0niii</a></td>
-    </tr>
-  </tbody>
-</table>
-
+| Nombre                       | Rol / Email / GitHub |
+|-------------------------------|--------------------|
+| Moya Verónica                 | Scrum Master – vero.moya@gmail.com – [GitHub](https://github.com/Veromoya95) |
+| Corvalán Alejandro            | Product Owner – alejandromcorva@gmail.com – [GitHub](https://github.com/Corval-LC) |
+| Guillén Jonathan              | QA – jonathan.guillen@mi.unc.edu.ar – [GitHub](https://github.com/JG-UNC) |
+| Ruzzi Valeria                 | Dev – valeriaruzzi@gmail.com – [GitHub](https://github.com/valer05) |
+| Salvo Daniela                 | Dev – daniela7salvo@gmail.com – [GitHub](https://github.com/DanipSal) |
+| Velasco Gonzalo               | Tester – gonzalo.velasco@mi.unc.edu.ar – [GitHub](https://github.com/g0niii) |
 
 ---
-## 🧱 Tecnologías y fundamentación
-- Gestión: **GitHub** (Issues, PRs, Wiki, Projects).
-- Base de datos: **MySQL 8 (InnoDB, utf8mb4)**.
-- Front: **HTML/CSS** (responsive, sin framework en S0).
-- Back: **Python** simple (endpoints mínimos para guardar contactos).
+
+## 📋 Product Backlog inicial
+- Diseño y estructura: wireframes, secciones Home/Propiedades/Contacto/FAQ, estilo visual.  
+- Desarrollo: maquetado front en HTML/CSS; backend en Python simple con endpoints mínimos y MySQL.  
+- Optimización UX: responsive, pruebas multi-dispositivo, optimización de imágenes y videos.  
+- Gestión de datos: CRUD de propiedades, clientes, contratos y pagos.  
+- Integraciones futuras: calendario, WhatsApp, SEO.
 
 ---
-## 🎲​ Modelado de datos / Contratos
 
-- En Contratos de alquiler, fecha_fin es la fecha planificada de finalización.
-finalizado = el contrato llega a fecha_fin.
-rescindido = el contrato termina antes de fecha_fin; se registrará una fecha_rescision (campo a incorporar en Sprint 2).
+## 🧱 Tecnologías
+- GitHub, HTML/CSS, Python, MySQL 8.  
+- Diseño responsive y compatibilidad multi-navegador.
+
+---
+
+## 🎲 Modelado de datos / Contratos
+- Contratos de alquiler: fecha_fin = fecha planificada de finalización.  
+- finalizado = contrato llega a fecha_fin.  
+- rescindido = contrato termina antes de fecha_fin; se registrará fecha_rescision (Sprint 2).
 
 ---
 
 ## 📂 Documentación
 - [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
 - [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER.pdf)  
-- [Schema SQL](docs/schema.sql)
-- [Diagrama Modelo Relacional](/docs/Diagrama Modelo Relacional.png)
-- [Modelo Relacional](docs/Diagrama%20Modelo%20Relacional.png)
-- [Historias de usuario](https://github.com/Proyecto-DFNVV/Dev6/blob/Develop/docs/Historias%20Usuario%20dev6.xlsx) 
+- [Schema SQL](docs/schema.sql)  
+- [Diagrama Modelo Relacional](docs/Diagrama%20Modelo%20Relacional.png)  
+- [Historias de usuario](https://github.com/Proyecto-DFNVV/Dev6/blob/Develop/docs/Historias%20Usuario%20dev6.xlsx)
