@@ -1,0 +1,49 @@
+.navbar {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+  
+  .navbar-brand img {
+    height: 50px; /* ajusta a tu gusto */
+    width: auto;  /* mantiene proporción */
+  }
+
+  .navbar-brand {
+    margin-left: 3rem; /* separa el logo del borde */
+  }
+  
+  .navbar-nav {
+    margin-right: 3rem; /* separa los enlaces del borde */
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: 600px;      /* o el alto que quieras */
+    object-fit: cover;  /* recorta manteniendo proporción */
+  }
+
+.card {
+  min-height: 150px;
+}
+
+.image-radius {
+  border-radius: 5px 5px 0 0;
+
+}
+
+.sobre-nosotros {
+  max-width: 1200px; 
+  margin: 0 auto; /
+  padding: 0 2rem; 
+}
+
+.img-about {
+  max-width: 75%;
+  height: auto;
+}
+
+.alert {
+  background-color: rgb(231, 231, 231);
+  color: black;
+  border-color: rgb(231, 231, 231);
+}
