@@ -130,3 +130,5 @@ rescindido = el contrato termina antes de fecha_fin; se registrará una fecha_re
 - [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER%20y%20Diagrama%20de%20clase.pdf)  
 - [Schema SQL](docs/schema.sql)
 - [Diagrama Modelo Relacional](/docs/Diagrama%20Modelo%20Relacional.png)
+
+
