@@ -127,7 +127,7 @@ rescindido = el contrato termina antes de fecha_fin; se registrará una fecha_re
 
 ## 📂 Documentación
 - [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
-- [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER.pdf)  
+- [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER%20y%20Diagrama%20de%20clase.pdf)  
 - [Schema SQL](docs/schema.sql)
 - [Diagrama Modelo Relacional](https://github.com/Proyecto-DFNVV/Dev6/blob/main/docs/Diagrama%20Modelo%20Relacional.png)
 - [Historias de usuario](https://github.com/Proyecto-DFNVV/Dev6/blob/Develop/docs/Historias%20Usuario%20dev6.xlsx) 
