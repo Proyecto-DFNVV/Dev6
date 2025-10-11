@@ -1,3 +1,5 @@
+from db import obtener_conexion
+
 from usuarios import *
 from validaciones import *
 from administrador import *
