@@ -1,8 +1,16 @@
 <!doctype html>
-<html>
+<html lang="es">
   <head>
+    <meta charset="utf-8">
+    <title>Redirect</title>
     <meta http-equiv="refresh" content="0; url=FrontEnd/index.html">
     <link rel="canonical" href="FrontEnd/index.html">
+    <script>
+      // Fallback JS por si el meta refresh no corre
+      location.replace("FrontEnd/index.html");
+    </script>
   </head>
-  <body></body>
+  <body>
+    <p>Redirigiendo a <a href="FrontEnd/index.html">FrontEnd/index.html</a>…</p>
+  </body>
 </html>
