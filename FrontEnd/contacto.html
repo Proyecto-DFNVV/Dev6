@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <title>Inmobiliaria Saul Hnos - Contacto</title>
 
   <!-- Bootstrap CSS -->
@@ -27,6 +28,8 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
           <li class="nav-item"><a class="nav-link" href="Propiedades.html">Propiedades</a></li>
           <li class="nav-item"><a class="nav-link active" href="Contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#mision">Quienes Somos</a></li>
+          <li class="nav-item"><a class="btn btn-dark" href="Login.html">Acceso clientes</a></li>
         </ul>
       </div>
     </div>
@@ -43,21 +46,34 @@
       <!-- Formulario -->
       <div class="row justify-content-center">
         <div class="col-md-8">
-          <form>
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Correo electrónico</label>
-              <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
-            </div>
-            <div class="mb-3">
-              <label for="mensaje" class="form-label">Mensaje</label>
-              <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu consulta aquí"></textarea>
-            </div>
-            <button type="submit" class="btn btn-dark">Enviar</button>
-          </form>
+          <form action="https://formsubmit.co/cuentatestalejandro@gmail.com" method="POST">
+          <input type="hidden" name="consulta" value="Consulta general">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/FrontEnd/gracias.html">
+          <input type="hidden" name="_captcha" value="false">
+
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Teléfono</label>
+            <input type="phone" class="form-control" id="phone" placeholder="Ej (0351) 449977">
+        </div>
+      
+        
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje adicional</label>
+          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Ej: Tu mensaje."></textarea>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-dark btn-lg mt-3">Enviar mensaje</button>
+        </div>
+  </div>
+      </form>
         </div>
       </div>
     </div>

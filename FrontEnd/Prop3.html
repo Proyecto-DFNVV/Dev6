@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <title>Inmobiliaria Saul hnos - Home</title>
 
   <!-- Bootstrap CSS -->
@@ -28,6 +29,8 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
           <li class="nav-item"><a class="nav-link active" href="Propiedades.html">Propiedades</a></li>
           <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#mision">Quienes Somos</a></li>
+          <li class="nav-item"><a class="btn btn-dark" href="Login.html">Acceso clientes</a></li>
         </ul>
       </div>
     </div>
@@ -88,7 +91,11 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8">
-      <form>
+      <form action="https://formsubmit.co/cuentatestalejandro@gmail.com" method="POST">
+          <input type="hidden" name="propiedad" value="Alquiler temporario - Avenida Patria 1790 - Barrio General Paz ">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/FrontEnd/gracias.html">
+          <input type="hidden" name="_captcha" value="false">
+
         <div class="mb-3">
           <label for="nombre" class="form-label">Nombre</label>
           <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
@@ -116,6 +123,10 @@
             <input class="form-check-input" type="radio" name="horario" id="hora3" value="18:00">
             <label class="form-check-label" for="hora3">18:00 hs</label>
           </div>
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje adicional</label>
+          <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Ej: Tu mensaje."></textarea>
         </div>
         <div class="d-flex justify-content-center">
           <button class="btn btn-dark btn-lg mt-3">Agendar visita</button>
