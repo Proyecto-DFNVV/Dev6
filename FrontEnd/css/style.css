@@ -1,62 +1,75 @@
+/*
+Hoja de Estilos Principal para el Proyecto Inmobiliaria
+Autor: Equipo Dev6
+Fecha: 12 de Octubre de 2025
+*/
+
+/* --- ESTILOS GLOBALES Y LAYOUT PRINCIPAL --- */
 html, body {
   height: 100%;
-  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa; /* Color de fondo general */
+}
+
+main {
+  flex: 1; /* Permite que el main ocupe el espacio sobrante (para sticky footer) */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 60px; /* Separación del navbar */
+}
+
+/* --- COMPONENTES --- */
+
+/* Navbar */
 .navbar {
-    padding-top: 0.9rem;
-    padding-bottom: 0.9rem;
-  }
-  
-.navbar-brand img {
-    height: 50px; 
-    width: auto;  
-  }
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
 
 .navbar-brand {
-    margin-left: 3rem; /* separa el logo del borde */
-  }
-  
+  margin-left: 3rem; /* Separa el logo del borde */
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
 .navbar-nav {
-    margin-right: 3rem; /* separa los enlaces del borde */
-  }
+  margin-right: 3rem; /* Separa los enlaces del borde */
+}
 
+/* Carousel */
 .carousel-item img {
-    width: 100%;
-    height: 600px;      /* o el alto que quieras */
-    object-fit: cover;  /* recorta manteniendo proporción */
-  }
+  width: 100%;
+  height: 600px;
+  object-fit: cover; /* Recorta la imagen manteniendo la proporción */
+}
 
+/* Cards */
 .card {
   min-height: 150px;
 }
 
 .image-radius {
   border-radius: 5px 5px 0 0;
-
 }
 
-.sobre-nosotros {
-  max-width: 1200px; 
-  margin: 0 auto; /
-  padding: 0 2rem; 
-}
-
-.img-about {
-  max-width: 75%;
-  height: auto;
-}
-
-.alert {
-  background-color: rgb(231, 231, 231);
-  color: black;
-  border-color: rgb(231, 231, 231);
-}
-
+/* Login Box */
 .login-box {
-  background-color: white;
-  border: 2px dashed #000;
-  border-radius: 10px;
+  display: block;
   width: 100%;
   max-width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .login-box input {
@@ -64,31 +77,32 @@ html, body {
   font-size: 1rem;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1; /* el main ocupa el espacio libre */
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  background-color: #f8f9fa; /* mismo color que antes */
-  padding-top: 60px; /* separa un poco de la navbar */
-}
-
-.login-box {
-  background-color: #fff;
-  border: 2px solid #000;
-  border-radius: 10px;
-  width: 100%;
-  max-width: 400px;
-  padding: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 .logo-login {
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
 }
 
+
+/* --- SECCIONES ESPECÍFICAS DE PÁGINA --- */
+
+/* Sección "Sobre Nosotros" */
+.sobre-nosotros {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.img-about {
+  max-width: 75%;
+  height: auto;
+}
+
+
+/* --- UTILIDADES Y OVERRIDES --- */
+
+/* Alerta Personalizada */
+.alert {
+  color: black;
+  background-color: rgb(231, 231, 231);
+  border-color: rgb(231, 231, 231);
+}
