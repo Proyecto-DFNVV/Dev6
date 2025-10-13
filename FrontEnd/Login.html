@@ -41,14 +41,16 @@
         <h1 class="text-center mb-3">Bienvenido</h1>
       <p class="text-center text-muted mb-4">Acceso Clientes</p>
 
-      <form>
-        <div class="mb-3">
-          <input type="text" class="form-control" placeholder="Usuario" required>
+      <form id="loginForm"> <div class="mb-3">
+          <input type="text" class="form-control" id="username" placeholder="Usuario" required>
         </div>
         <div class="mb-3">
-          <input type="password" class="form-control" placeholder="Contraseña" required>
+          <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
         </div>
-        <div class="d-grid gap-2">
+        
+        <div id="alertContainer"></div>
+
+        <div class="d-grid gap-2 mt-4">
           <button type="submit" class="btn btn-dark">Ingresar</button>
           <button type="button" class="btn btn-outline-dark">¿Olvidaste tu clave?</button>
         </div>
@@ -62,7 +64,9 @@
   </footer>
 
   <!-- Bootstrap JS -->
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/FrontEnd/js/script.js"></script> 
 </body>
 </html>
 
