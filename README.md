@@ -106,7 +106,7 @@ El código puede reutilizarse con fines académicos mencionando la fuente.
 ---
 
 ## 📂 Documentación
-- [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
+- [IEEE830 – Especificación de Requisitos](https://docs.google.com/document/d/1f-O2QS8keezM_-WDX3REgbiHtAoItkY3R9hBNXKISWU/edit?pli=1&tab=t.0#heading=h.8a5eks7m3bjn)  
 - [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER%20y%20Diagrama%20de%20clase.pdf)  
 - [Schema SQL](docs/schema.sql)
 - [Diagrama Modelo Relacional](https://github.com/Proyecto-DFNVV/Dev6/blob/main/docs/Diagrama%20Modelo%20Relacional.png)
