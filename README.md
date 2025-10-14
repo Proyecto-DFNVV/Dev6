@@ -17,7 +17,7 @@ La propuesta es desarrollar una **aplicación web responsive**, que funcione com
 - Potenciar la imagen profesional de la inmobiliaria.  
 
 ### Áreas principales
-- **Portal público**: catálogo de propiedades con filtros, fotos, descripciones, agenda de visitas y formulario de contacto.  
+- **Portal público**: catálogo de propiedades con filtros, fotos, descripciones, agenda de visitas y formulario de contacto.
 - **Área de clientes registrados**: acceso a datos personales, estado de operaciones y módulo básico de pagos.
 
 ---
