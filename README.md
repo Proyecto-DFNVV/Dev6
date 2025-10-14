@@ -73,8 +73,11 @@ La propuesta es desarrollar una **aplicación web responsive**, que funcione com
 ---
 
 ## 🧱 Tecnologías
-- GitHub, HTML/CSS, Python, MySQL 8.  
-- Diseño responsive y compatibilidad multi-navegador.
+- **Frontend:** HTML5, CSS3, JavaScript, React  
+- **Backend:** Python, Flask, MySQL  
+- **Control de versiones:** Git y GitHub  
+- **Diseño:** Figma / Canva  
+- **Gestión del proyecto:** Trello / Scrum
 
 ---
 
@@ -85,12 +88,26 @@ La propuesta es desarrollar una **aplicación web responsive**, que funcione com
 
 ---
 
+## 📚 Reconocimiento de Wikis
+
+Se utilizará el espacio **Wiki del repositorio** para documentar:  
+- Historias de usuario y criterios de aceptación.  
+- Configuración técnica (instalación, despliegue).  
+- Guías para nuevos integrantes del equipo.  
+
+El equipo se compromete a mantener las wikis actualizadas al cierre de cada sprint.
+
+---
+
+## 📄 Licencia
+Este proyecto se desarrolla con fines educativos para la materia **Proyecto Integrador I (UTN / [tu institución])**.  
+El código puede reutilizarse con fines académicos mencionando la fuente.
+
+---
+
 ## 📂 Documentación
 - [IEEE830 – Especificación de Requisitos](./docs/IEEE830.pdf)  
 - [Diagrama entidad relación - Diagrama de Clases UML](./docs/DER%20y%20Diagrama%20de%20clase.pdf)  
 - [Schema SQL](docs/schema.sql)
 - [Diagrama Modelo Relacional](https://github.com/Proyecto-DFNVV/Dev6/blob/main/docs/Diagrama%20Modelo%20Relacional.png)
 - [Historias de usuario](https://docs.google.com/spreadsheets/d/1Kp1DKsy8N1ubMoLdLvDve8G5GEpLTiSvWCnp-JkGc40/edit?pli=1&gid=1099442861#gid=1099442861)
-
-
-
