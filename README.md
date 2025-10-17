@@ -54,7 +54,6 @@ La propuesta es desarrollar una **aplicación web responsive**, que funcione com
 
 | Nombre                       | Rol / Email / GitHub |
 |-------------------------------|--------------------|
-| Moya Verónica                 | Scrum Master – vero.moya@gmail.com – [GitHub](https://github.com/Veromoya95) |
 | Corvalán Alejandro            | Product Owner – alejandromcorva@gmail.com – [GitHub](https://github.com/Corval-LC) |
 | Guillén Jonathan              | QA – jonathan.guillen@mi.unc.edu.ar – [GitHub](https://github.com/JG-UNC) |
 | Ruzzi Valeria                 | Dev – valeriaruzzi@gmail.com – [GitHub](https://github.com/valer05) |
